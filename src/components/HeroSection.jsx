@@ -1,6 +1,6 @@
 import React from "react";
 import video from "../assets/video.mp4";
-import hero from "../assets/hero.jpeg";
+import hero from "../assets/hero.avif";
 import { motion } from 'framer-motion';
 
 const HeroSection = () => {

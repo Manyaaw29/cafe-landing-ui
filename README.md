@@ -1,61 +1,39 @@
-# The Quiet Cup - Landing Page
+# The Quiet Cup
 
-A minimalist, sophisticated landing page UI for a premium coffee shop. This project focuses on high-quality visuals, smooth animations, and a peaceful user experience to reflect the brand's identity: _Where silence tastes like coffee._
-
-> **Note:** This is a **Frontend-only** project focused on UI/UX demonstration. There is no backend integration or database.
-
-## 🚀 Experience the UI
-
-The landing page features several sections designed to engage the visitor:
-
-- **Hero Section**: Immersive video background with smooth text animations.
-- **Menu Items**: A clean grid layout showcasing products with hover effects.
-- **About & Vision**: Storytelling sections using parallax-ready imagery and cinematic video backgrounds.
-- **Our Craft**: Multi-step process visualization with staggered animations.
-- **Testimonials**: Elegant "Stories from our corner" section.
-- **Contact**: Minimalist functional-styled contact information.
-
-## 🛠️ Tech Stack
-
-This project is built using modern web technologies to ensure performance and maintainability:
-
-- **React 19**: Modern UI library for component-based architecture.
-- **Vite**: Ultra-fast next-generation frontend tool for development and building.
-- **Tailwind CSS 4.0**: Utility-first CSS framework for rapid and consistent styling.
-- **Framer Motion**: Powering all the high-quality animations and scroll-triggered transitions.
+A refined, modern landing page for a premium café experience. Built with a focus on smooth animations and minimalist design, this project showcases a calming, sophisticated UI that reflects the brand's ethos: _where silence tastes like coffee_.
 
 ---
 
-## 💻 Getting Started
+## 🌐 Live Demo
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (latest LTS recommended)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/thequietcup.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd thequietcup
-   ```
-3. Install dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## 📜 Design Philosophy
-
-The UI follows a "Dark Mode" aesthetic using neutral tones and subtle rose-gold accents to create a premium, calming atmosphere. The typography is a mix of classic serif labels and modern sans-serif content to balance tradition with modernity.
+**[View Live Demo →](https://the-quiet-cup.vercel.app/)**
 
 ---
 
-**Crafted with ❤️ for coffee lovers and UI enthusiasts.**
+## ✨ Key Features
+
+- **Smooth Animations** – Engaging scroll-triggered animations and transitions powered by Framer Motion
+- **Minimalist Design** – Clean, modern interface with a dark aesthetic and subtle rose-gold accents
+- **Responsive Layout** – Fully optimized for all screen sizes and devices
+- **Hero Section** – Eye-catching introduction with immersive visuals
+- **Product Showcase** – Menu items displayed with elegant hover effects
+- **Brand Storytelling** – About, Vision, and Craft sections that bring the café's story to life
+- **Customer Testimonials** – Authentic reviews to build trust and connection
+- **Contact Information** – Simple, accessible contact details
+
+---
+
+## 🛠️ Tech Stack & Implementation
+
+- **React** – Used to build a modular, component-based UI with reusable sections for a clean and maintainable structure.
+- **Vite** – Provided a fast development environment with hot module replacement and optimized production builds.
+- **Tailwind CSS** – Used for utility-first styling to create responsive layouts, consistent spacing, custom typography, and a calm café-inspired color palette.
+- **Framer Motion** – Implemented subtle animations including page-load transitions, scroll-triggered reveals, and interactive hover effects for a smooth user experience.
+
+---
+
+## 💡 Purpose
+
+This project was created to explore and master **Framer Motion**, learning how to craft smooth, scroll-triggered animations and enhance user experience through motion design. It serves as both a showcase of modern frontend techniques and a portfolio piece demonstrating attention to detail in UI/UX.
+
+---

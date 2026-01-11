@@ -7,7 +7,7 @@ const containerVariants = {
   show: {
     opacity: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.6,
       staggerChildren: 0.3,
     },
   },
@@ -31,13 +31,14 @@ const imageVariants = {
   show: {
     opacity: 1,
     scale: 1,
-    transition: { duration: 0.6, delay: 0.2 },
+    transition: { duration: 0.6 },
   },
 };
 
 const OurCraft = () => {
   return (
     <section id="specialty" className="py-24">
+      {/* Heading */}
       <motion.h2
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -48,6 +49,7 @@ const OurCraft = () => {
         Our Craft
       </motion.h2>
 
+      {/* Content */}
       <motion.div
         variants={containerVariants}
         initial="hidden"
@@ -57,47 +59,40 @@ const OurCraft = () => {
       >
         {SPECIALITY.map((item, index) => (
           <motion.div
-            variants={itemVariants}
             key={index}
+            variants={itemVariants}
             className={`flex flex-col gap-8 mb-16 last:mb-0 ${
               index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
             }`}
           >
+            {/* Image */}
             <motion.div variants={imageVariants} className="lg:w-1/2">
               <motion.img
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.4 }}
                 src={item.image}
                 alt={item.title}
                 className="rounded-2xl w-full h-[400px] object-cover shadow-lg"
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.4 }}
               />
             </motion.div>
-            <div className="lg:w-1/2 flex flex-col justify-center">
-              <motion.div
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.3, duration: 0.6 }}
-                className="text-5xl font-light text-neutral-500 mb-4"
-              >
+
+            {/* Text */}
+            <motion.div
+              variants={itemVariants}
+              className="lg:w-1/2 flex flex-col justify-center"
+            >
+              <div className="text-5xl font-light text-neutral-500 mb-4">
                 {item.number}
-              </motion.div>
-              <motion.h3
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.4, duration: 0.6 }}
-                className="mb-4 text-3xl lg:text-4xl font-semibold tracking-tight"
-              >
+              </div>
+
+              <h3 className="mb-4 text-3xl lg:text-4xl font-semibold tracking-tight">
                 {item.title}
-              </motion.h3>
-              <motion.p
-                initial={{ opacity: 0 }}
-                whileInView={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.6 }}
-                className="text-neutral-400 text-lg leading-relaxed"
-              >
+              </h3>
+
+              <p className="text-neutral-400 text-lg leading-relaxed">
                 {item.description}
-              </motion.p>
-            </div>
+              </p>
+            </motion.div>
           </motion.div>
         ))}
       </motion.div>

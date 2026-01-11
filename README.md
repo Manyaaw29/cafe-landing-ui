@@ -6,7 +6,7 @@ A refined, modern landing page for a premium café experience. Built with a focu
 
 ## 🌐 Live Demo
 
-**[View Live Demo →](https://the-quiet-cup.vercel.app/)**
+🔗 Live Demo: https://the-quiet-cup.vercel.app/
 
 ---
 

@@ -119,7 +119,7 @@ const Review = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, margin: "-50px" }}
-        className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto"
+        className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto mt-16"
       >
         {[customer1, customer2, customer3, customer4].map((customer, index) => (
           <motion.img

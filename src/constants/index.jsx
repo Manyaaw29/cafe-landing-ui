@@ -5,7 +5,7 @@ import cafe4 from "../assets/cafe4.webp";
 import cafe5 from "../assets/cafe5.jpg";
 import cafe6 from "../assets/cafe6.webp";
 import cafe7 from "../assets/cafe7.jpg";
-import cafe8 from "../assets/cafe8.jpg";
+import cafe8 from "../assets/cafe8.webp";
 import cafe9 from "../assets/cafe9.jpg";
 import cafe10 from "../assets/cafe10.jpg";
 import cafe11 from "../assets/cafe11.webp";
